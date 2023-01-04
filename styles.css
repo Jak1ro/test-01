@@ -1,51 +1,119 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-.red {
+.onlob {
+  width: 1200px;
+  margin: 0 auto;
   background: red;
-  padding: 100px;
+  padding: 50px 0 20px;
 }
 
-.white {
-  background: white;
-  margin: 400px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-right: 30px;
-  
+.onlhead {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  margin-left: 60%;
 }
 
-h1 {
-  padding-left: 500px;
-  font-size: 3em;
+.onlh {
+  line-height: 1em;
   text-transform: uppercase;
-  font-weight: bold;
-  
+  font-weight: 800;
+  padding: 10px 30px 10px 10px;
+  background: red;
+  color: #fff;
+  font-size: 2em;
 }
 
-.lorem {
-  padding-left: 500px;
-  text-align:justify
+.onllorem {
+  text-align: justify;
+  font-size: 1.1em;
+  margin-left: 40px;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 25px;
 }
 
-.help {
-  padding-left: 500px;
+.onladr {
   text-transform: uppercase;
+  margin-top: 12px;
+  font-size: 1.1em;
 }
 
-.bez {
+.onladr a {
+  color: red;
+}
+.onlbolsh {
+  padding: 10px 30px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+
+
+/* secondpage(1page) =) */
+
+.prof {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fde8b9;
+  padding: 50px 0 20px;
+}
+
+.startprof {
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.starthead {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  line-height: 0.9em;
+  font-weight: 800;
+  color: #fff;
+  background: #fde8b9;
+  padding: 15px;
+  text-align: right;
+}
+
+.startlorem {
+  margin-top: 20px;
+  text-align: justify;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.1em;
+  margin-left: 40px;
+}
+
+.startadd {
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-left: 215px;
+  color: #999;
+}
+
+.startadd a {
   color: red;
 }
 
-button {
-  height: 50px;
-  width: 170px;
+.startbtn {
+  padding: 10px 30px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-size: 1.1em;
   background: #000;
   color: #fff;
-  text-transform: uppercase;
-  margin-left: 500px;
 }
